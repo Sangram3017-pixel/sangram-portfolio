@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangram Arjun Jadhav | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <a href="#" class="logo">Sangram</a>
+
+    <i class="fas fa-bars" id="menu"></i>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<!-- ================= HOME ================= -->
+
+<section class="home" id="home">
+
+<div class="content">
+
+<h3>Hello, I'm</h3>
+
+<h1>Sangram Arjun Jadhav</h1>
+
+<h2><span class="typing"></span></h2>
+
+<p>
+
+Passionate Computer Engineer with an interest in Web Development and IT.
+I enjoy building responsive websites using HTML, CSS and JavaScript.
+
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+<a href="#" class="btn2">Download Resume</a>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+</div>
+
+</div>
+
+<div class="image">
+
+<img src="profile.jpg" alt="Profile">
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+<h1 class="heading">About Me</h1>
+
+<div class="about-container">
+
+<div class="about-img">
+
+<img src="profile.jpg">
+
+</div>
+
+<div class="about-text">
+
+<h2>Web Developer</h2>
+
+<p>
+
+My name is Sangram Arjun Jadhav.
+
+I am pursuing B.Tech in Electronics & Computer Science.
+
+I am passionate about Website Development,
+Front-End Technologies and Freelancing.
+
+I enjoy learning new technologies and building beautiful,
+responsive and user-friendly websites.
+
+</p>
+
+<table>
+
+<tr>
+
+<td><strong>Name :</strong></td>
+
+<td>Sangram Arjun Jadhav</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Profession :</strong></td>
+
+<td>B.Tech (ECS)</td>
+
+</tr>
+
+<tr>
+
+<td><strong>City :</strong></td>
+
+<td>Navi Mumbai</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Email :</strong></td>
+
+<td>sangramjadhav3017@gmail.com</td>
+
+</tr>
+
+<tr>
+
+<td><strong>Phone :</strong></td>
+
+<td>7058322467</td>
+
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+<h1 class="heading">My Skills</h1>
+
+<div class="skill-box">
+
+<div class="skill">
+
+<h3>HTML</h3>
+
+<div class="progress">
+
+<div class="html">95%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<h3>CSS</h3>
+
+<div class="progress">
+
+<div class="css">90%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<h3>JavaScript</h3>
+
+<div class="progress">
+
+<div class="js">80%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<h3>MS Excel</h3>
+
+<div class="progress">
+
+<div class="excel">85%</div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<h3>GIS</h3>
+
+<div class="progress">
+
+<div class="gis">75%</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+<h1 class="heading">Projects</h1>
+
+<div class="project-container">
+
+<div class="card">
+
+<i class="fa-solid fa-code"></i>
+
+<h2>Portfolio Website</h2>
+
+<p>
+
+Personal Portfolio Website using HTML, CSS and JavaScript.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-laptop-code"></i>
+
+<h2>Responsive Landing Page</h2>
+
+<p>
+
+Modern Landing Page with Responsive Design.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<h2>E-Commerce UI</h2>
+
+<p>
+
+Responsive Shopping Website Front-End Design.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<h1 class="heading">Contact Me</h1>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="7" placeholder="Message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Sangram Arjun Jadhav | All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

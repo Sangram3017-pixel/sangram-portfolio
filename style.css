@@ -3131,3 +3131,15 @@ font-size:15px;
 }
 
 }
+
+/* ==========================
+   Mobile Resume Fix
+========================== */
+
+@media (max-width:768px){
+
+    .resume-preview{
+        display:none;
+    }
+
+}

@@ -1665,100 +1665,13 @@ footer p{
     white-space:nowrap;
 }
 
-/* ==========================
-      PREMIUM PRELOADER
-========================== */
-
-#preloader{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#0d1117;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    z-index:99999;
-    transition:.8s;
-}
-
-.loader-box{
-
-    text-align:center;
-
-}
-
-.loader-ring{
-
-    width:90px;
-    height:90px;
-    border-radius:50%;
-    border:5px solid rgba(255,255,255,.15);
-    border-top:5px solid #00e5ff;
-    animation:spin 1s linear infinite;
-    margin:auto;
-}
-
-.loader-ring.ring2{
-
-    width:65px;
-    height:65px;
-    margin-top:-78px;
-    border-top-color:#00ff99;
-    animation:spinReverse .8s linear infinite;
-
-}
-
-.loader-box h1{
-
-    color:#fff;
-    margin-top:40px;
-    font-size:34px;
-    letter-spacing:2px;
-
-}
-
-.loader-box p{
-
-    color:#00e5ff;
-    margin-top:10px;
-    font-size:18px;
-
-}
-
-.preloader-hide{
-
-    opacity:0;
-    visibility:hidden;
-
-}
-
-@keyframes spin{
-
-    to{
-
-        transform:rotate(360deg);
-
-    }
-
-}
-
-@keyframes spinReverse{
-
-    to{
-
-        transform:rotate(-360deg);
-
-    }
-
-}
-
 /* ===================================
       ULTRA PREMIUM PRELOADER
 =================================== */
 
 #preloader{
+    animation: bgMove 8s ease infinite;
+background-size:300% 300%;
 position:fixed;
 top:0;
 left:0;
@@ -1814,6 +1727,10 @@ font-weight:bold;
 color:#fff;
 
 animation:pulse 2s infinite;
+
+box-shadow:
+0 0 20px cyan,
+0 0 45px #2563eb;
 
 }
 
@@ -3141,5 +3058,172 @@ font-size:15px;
     .resume-preview{
         display:none;
     }
+
+}
+
+@keyframes bgMove{
+
+0%{
+
+background-position:0% 50%;
+
+}
+
+50%{
+
+background-position:100% 50%;
+
+}
+
+100%{
+
+background-position:0% 50%;
+
+}
+
+}
+
+/* =====================================
+      MOBILE RESPONSIVE (Part 1)
+===================================== */
+
+@media (max-width:768px){
+
+/* Navbar */
+
+nav{
+
+    padding:15px 20px;
+
+}
+
+.logo{
+
+    font-size:24px;
+
+}
+
+/* Hero */
+
+.hero{
+
+    padding:130px 20px 80px;
+
+    min-height:100vh;
+
+}
+
+.hero-content{
+
+    max-width:100%;
+
+}
+
+.profile-img{
+
+    width:170px;
+
+    height:170px;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+    line-height:1.2;
+
+}
+
+.hero h2{
+
+    font-size:22px;
+
+}
+
+.hero p{
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    padding:0 10px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    align-items:center;
+
+}
+
+.hero-buttons .btn{
+
+    width:230px;
+
+    text-align:center;
+
+}
+
+}
+
+/* ==========================
+   Mobile Hero Final Fix
+========================== */
+
+@media (max-width:768px){
+
+.hero{
+
+    overflow:hidden;
+
+}
+
+.hero-content{
+
+    width:100%;
+    max-width:100%;
+    padding:0 18px;
+    box-sizing:border-box;
+}
+
+.hero h1{
+
+    font-size:34px;
+    line-height:1.25;
+    white-space:normal;
+    word-break:break-word;
+}
+
+.hero h2{
+
+    font-size:21px;
+    line-height:1.5;
+}
+
+#typing{
+
+    display:block;
+    width:100%;
+    white-space:normal;
+    overflow-wrap:break-word;
+
+}
+
+}
+
+html,
+body{
+
+    width:100%;
+    overflow-x:hidden;
 
 }

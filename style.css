@@ -3227,3 +3227,11 @@ body{
     overflow-x:hidden;
 
 }
+
+#typing::after{
+    content:none !important;
+}
+
+.hero h2{
+    overflow:visible !important;
+}

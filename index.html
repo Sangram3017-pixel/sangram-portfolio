@@ -57,6 +57,7 @@ gtag('js', new Date());
 
 gtag('config', 'G-T38F8EJTFY');
 </script>
+
 </head>
 </head>
 
@@ -203,10 +204,12 @@ gtag('config', 'G-T38F8EJTFY');
         </p>
 
         <a href="#contact" class="btn">
+              onclick="gtag('event','hire_me_click');">
             Hire Me
         </a>
 
         <a href="resume.pdf" class="btn" download>
+              onclick="gtag('event','resume_download');">
             Download Resume
         </a>
 
@@ -488,11 +491,12 @@ gtag('config', 'G-T38F8EJTFY');
 
                 </a>
 
-                <a href="resume.pdf"
-                   download
-                   class="btn">
-
-                    Download Resume
+               <a href="resume.pdf"
+   class="btn"
+   download
+   onclick="gtag('event','resume_download');">
+    Download Resume
+</a>
 
                 </a>
 
